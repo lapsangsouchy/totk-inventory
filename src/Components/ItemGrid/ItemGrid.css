@@ -1,0 +1,17 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 5px;
+  height: 100%;
+  /* width: 100%; */
+  padding: 20px 20px 0 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.item {
+  aspect-ratio: 1;
+  background-color: black;
+  border: 1px solid grey;
+  border-radius: 2px;
+}

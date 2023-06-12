@@ -1,0 +1,45 @@
+#items-panel {
+  width: 50%;
+  height: 100%;
+  margin: 2rem 3rem 0 3rem;
+}
+
+#top-bar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  gap: 10px;
+  background-color: #fff;
+  align-items: center;
+  /* padding: 5px; */
+}
+
+.categories {
+  display: flex;
+  /* width: 80%; */
+  flex-wrap: nowrap;
+  padding: 5px;
+}
+
+.selector {
+  /* padding: 5px; */
+  margin: auto 5px auto 5px;
+  height: 20px;
+}
+
+.menu-select {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.menu-select img {
+  width: 100%;
+  object-fit: fill;
+  padding: 0 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
